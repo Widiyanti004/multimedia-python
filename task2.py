@@ -39,7 +39,7 @@ def manipulate_image(input_path, output_path):
         print(f"❌ Terjadi kesalahan: {e}")
 
 if __name__ == "__main__":
-    manipulate_image('Teknologi.jpg', 'result.jpg')
+    manipulate_image('mesjid.jpg', 'result.jpg')
 
 from pydub import AudioSegment
 from pydub.playback import play
