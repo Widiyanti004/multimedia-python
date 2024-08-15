@@ -8,7 +8,7 @@ from PIL import Image, ImageTk
 
 # Memuat image menggunakan Pillow
 image = Image.open('Teknologi.jpg')
-image = image.resize((300, 200), Image.LANCZOS)
+image = image.resize((400, 300), Image.LANCZOS)
 photo = ImageTk.PhotoImage(image)
 
 # Membuat label untuk menampilkan gambar

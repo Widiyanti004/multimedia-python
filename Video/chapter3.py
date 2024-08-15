@@ -12,7 +12,7 @@ video.write_videofile('result.mp4')
 short_video = video.subclip(0, 10)
 short_video.write_videofile('short_result.mp4')
 
-# Menggabungkan 2 file video
+# Menggabungkan dua file video
 combined_video = concatenate_videoclips([video, short_video])
 combined_video.write_videofile('combined_result.mp4')
 
